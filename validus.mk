@@ -4,6 +4,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/validus/config/caf_fw.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
