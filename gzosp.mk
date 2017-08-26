@@ -3,15 +3,15 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
-$(call inherit-product, vendor/validus/config/caf_fw.mk)
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/gzosp/config/caf_fw.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
-PRODUCT_NAME := validus_mako
+PRODUCT_NAME := gzosp_mako
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
